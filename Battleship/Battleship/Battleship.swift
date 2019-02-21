@@ -129,3 +129,43 @@ extension Ship {
     
 }
 
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+//day 2
+//一等函数
+
+typealias Region = (Position) -> Bool
+
+
+
+func circle(radius: Distance) -> Region {
+    return { point in
+        point.length <= radius
+        
+    }
+}
+ 
+
+//原点不在圆心的圆
+
+//func circle(radius: Distance, center: Position) -> Region {
+//    return { point in
+//        point.minus(p: center).length <= radius
+//    }
+//}
+
+func shift(region: @escaping Region, offset: Position) -> Region {
+    return { point in
+        region(point.minus(p: offset))
+    }
+}
+
+
+
+//shift
+//“例如，一个圆心为 (5, 5) 半径为 10 的圆，可以用下面的方式表示：”
+//
+//Excerpt From: Chris Eidhof. “函数式 Swift.” Apple Books.
+//shift(region: circle(radius: 10), offset: Position(x: 5, y: 5))
