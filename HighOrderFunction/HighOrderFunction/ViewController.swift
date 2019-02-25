@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         print(doubleArray2(array: originalArray))
         
-        
+        //单表达式闭包 隐式返回
         print(originalArray.map({ (element) -> Int in
             element * element
         }))
