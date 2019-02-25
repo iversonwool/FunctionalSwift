@@ -25,7 +25,12 @@ class ViewController: UIViewController {
 //
 //        let context = CIContext(cgContext: UIGraphicsGetCurrentContext()!, options: nil)
 //
-//        let outImageRef 
+//        let outImageRef
+        
+        
+        let a = 3
+        let b = 8
+        print(add2(a: a)(b))
         
     }
 

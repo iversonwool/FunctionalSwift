@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D414637B222381BA00B79B9A /* Currying.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414637A222381BA00B79B9A /* Currying.swift */; };
 		D47DC4282222E9C0008DE70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DC4272222E9C0008DE70B /* AppDelegate.swift */; };
 		D47DC42A2222E9C0008DE70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DC4292222E9C0008DE70B /* ViewController.swift */; };
 		D47DC42D2222E9C0008DE70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47DC42B2222E9C0008DE70B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D414637A222381BA00B79B9A /* Currying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currying.swift; sourceTree = "<group>"; };
 		D47DC4242222E9C0008DE70B /* WrappingCoreImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrappingCoreImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47DC4272222E9C0008DE70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D47DC4292222E9C0008DE70B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D47DC4272222E9C0008DE70B /* AppDelegate.swift */,
 				D47DC4292222E9C0008DE70B /* ViewController.swift */,
 				D47DC4392222E9FC008DE70B /* CoreImage+Extension.swift */,
+				D414637A222381BA00B79B9A /* Currying.swift */,
 				D47DC42B2222E9C0008DE70B /* Main.storyboard */,
 				D47DC42E2222E9C1008DE70B /* Assets.xcassets */,
 				D47DC4302222E9C1008DE70B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D414637B222381BA00B79B9A /* Currying.swift in Sources */,
 				D47DC43A2222E9FC008DE70B /* CoreImage+Extension.swift in Sources */,
 				D47DC42A2222E9C0008DE70B /* ViewController.swift in Sources */,
 				D47DC4282222E9C0008DE70B /* AppDelegate.swift in Sources */,
