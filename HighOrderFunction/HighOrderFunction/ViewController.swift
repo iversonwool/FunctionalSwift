@@ -24,6 +24,24 @@ class ViewController: UIViewController {
         print(originalArray.map({ (element) -> Int in
             element * element
         }))
+        
+        
+        print(genericComputeArray(array: originalArray, transform: { (i) -> Int in
+            i * 2 + 1
+        }))
+        
+        print(originalArray.myFilter(transform: { (e) -> Bool in
+            e % 2 == 0
+        }))
+        
+        print(originalArray.filter({ (e) -> Bool in
+            e % 2 != 0
+        }))
+        
+        
+        print(originalArray.reduce(20, { (prev, e) -> Int in
+            prev + e
+        }))
     }
 
 

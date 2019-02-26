@@ -42,3 +42,24 @@ public func doubleArray2(array: [Int]) -> [Int] {
         element * 2
     })
 }
+
+func genericComputeArray<T>(array: [T], transform: (Int) -> T) -> [T] {
+    var result: [T] = []
+    for elemet in array {
+        result.append(transform(elemet as! Int))
+    }
+    return result
+}
+
+extension Array {
+    func myFilter(transform: (Element) -> Bool) -> [Element] {
+        var result: [Element] = []
+        for element in self where transform(element) {//where 用来限定某些条件
+            //if transform(element) {
+            result.append(element)
+            //}
+        }
+        return result
+    }
+}
+
