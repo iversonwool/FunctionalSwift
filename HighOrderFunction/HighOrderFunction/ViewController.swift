@@ -54,6 +54,10 @@ class ViewController: UIViewController {
         }
         print(resultString)
         
+        
+        print(curry(f: { (a, b) -> Int in
+            a + b
+        })(2)(3))
     }
 
 
