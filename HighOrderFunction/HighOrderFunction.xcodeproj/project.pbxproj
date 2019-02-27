@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D43B51CB222659C70045AE4D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B51CA222659C70045AE4D /* City.swift */; };
 		D47DC448222427E4008DE70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DC447222427E4008DE70B /* AppDelegate.swift */; };
 		D47DC44A222427E4008DE70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DC449222427E4008DE70B /* ViewController.swift */; };
 		D47DC44D222427E4008DE70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47DC44B222427E4008DE70B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D43B51CA222659C70045AE4D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		D47DC444222427E4008DE70B /* HighOrderFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighOrderFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47DC447222427E4008DE70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D47DC449222427E4008DE70B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D47DC447222427E4008DE70B /* AppDelegate.swift */,
 				D47DC449222427E4008DE70B /* ViewController.swift */,
 				D47DC45922242805008DE70B /* highOrderFunc.swift */,
+				D43B51CA222659C70045AE4D /* City.swift */,
 				D47DC44B222427E4008DE70B /* Main.storyboard */,
 				D47DC44E222427E6008DE70B /* Assets.xcassets */,
 				D47DC450222427E6008DE70B /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				D47DC44A222427E4008DE70B /* ViewController.swift in Sources */,
 				D47DC45A22242805008DE70B /* highOrderFunc.swift in Sources */,
+				D43B51CB222659C70045AE4D /* City.swift in Sources */,
 				D47DC448222427E4008DE70B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

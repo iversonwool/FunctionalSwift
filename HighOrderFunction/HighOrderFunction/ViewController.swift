@@ -42,6 +42,18 @@ class ViewController: UIViewController {
         print(originalArray.reduce(20, { (prev, e) -> Int in
             prev + e
         }))
+        
+        
+        let allCities = cities()
+        
+        let resultString = allCities
+            .filter { $0.population > 1000 }
+            .map { $0.cityByScalingPopulation() }
+            .reduce("City:Population") { (result, city) -> String in//尾随闭包
+                result + "\n" + "\(city.name):\(city.population)"
+        }
+        print(resultString)
+        
     }
 
 
